@@ -13,22 +13,37 @@ ul,li,a{
     text-decoration: none;
     border-bottom: none;
 }
+
+.mini-section{
+    
+    nav{
+        display: flex;
+        background-color: rgba(255, 0, 0, 0.319);
+    }
+    .right{
+        display: flex;
+    }
+    .left{
+        display: flex;
+    }
+}
 .header{
     background: $background;
     height: 100vh;
-}
-nav{
-    background-color: $nav-background;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:1.5rem;
-    ul{
+
+    nav{
+        background-color: $nav-background;
         display: flex;
-        gap: 5rem;
-    }
-    a{
-        color: $text-color;
-        font-size: 1.5rem;
-    }
-}   
+        justify-content: center;
+        align-items: center;
+        padding:1.5rem;
+        ul{
+            display: flex;
+            gap: 5rem;
+        }
+        a{
+            color: $text-color;
+            font-size: 1.5rem;
+        }
+    }   
+}
