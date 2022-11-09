@@ -4,14 +4,21 @@
     box-sizing: border-box;
 }
 
+$nav-background:#001d3d;
+$text-color:#ffc300;
+$background:#003566;
 
 ul,li,a{
     list-style:none;
     text-decoration: none;
     border-bottom: none;
 }
+.header{
+    background: $background;
+    height: 100vh;
+}
 nav{
-    background-color: black;
+    background-color: $nav-background;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +28,7 @@ nav{
         gap: 5rem;
     }
     a{
-        color: white;
+        color: $text-color;
         font-size: 1.5rem;
     }
 }   
