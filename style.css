@@ -2,4 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+ul, li, a {
+  list-style: none;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+nav ul {
+  display: flex;
+  gap: 5rem;
+}
+nav a {
+  color: white;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
