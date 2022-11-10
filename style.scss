@@ -26,11 +26,10 @@ ul,li,a{
     .left{
         display: flex;
     }
-}
-.header{
-    background: $background;
-    height: 100vh;
-
+    .header{
+        background: $background;
+        height: 100vh;
+    
     nav{
         background-color: $nav-background;
         display: flex;
@@ -46,4 +45,5 @@ ul,li,a{
             font-size: 1.5rem;
         }
     }   
+    }
 }
