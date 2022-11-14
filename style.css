@@ -14,7 +14,7 @@ ul, li, a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.75rem;
+  padding: 0.5rem;
 }
 .first-header .row a {
   color: black;
@@ -48,6 +48,9 @@ ul, li, a {
   gap: 5rem;
   margin-right: 1rem;
 }
+.first-header .right a {
+  background-color: #ffc300;
+}
 .first-header nav {
   background-color: white;
 }
@@ -56,19 +59,25 @@ ul, li, a {
   background: #003566;
   height: 100vh;
 }
+.mini-section .header .columns {
+  display: flex;
+  align-items: center;
+}
 .mini-section .header nav {
   background-color: #001d3d;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 1.25rem;
-}
-.mini-section .header ul {
-  display: flex;
-  gap: 5rem;
 }
 .mini-section .header a {
   color: #ffc300;
   font-size: 1rem;
+}
+.mini-section .header li {
+  padding: 1.125rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.mini-section .header li:hover {
+  background-color: rgba(245, 245, 245, 0.4);
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
-

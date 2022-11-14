@@ -23,7 +23,7 @@ ul,li,a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: .75rem;
+        padding: .5rem;
         a{
             color: $black;
         }
@@ -59,6 +59,10 @@ ul,li,a{
         display: flex;
         gap: 5rem;
         margin-right: 1rem;
+
+        a{
+            background-color: $text-color;
+        }
     }
     nav{
         background-color: $white;
@@ -66,26 +70,33 @@ ul,li,a{
 }
 .mini-section{
     
-
-   
     .header{
         background: $background;
         height: 100vh;
     
+        .columns{
+            display: flex;
+            align-items: center;
+        }
+        
         nav{
             background-color: $nav-background;
             display: flex;
-            justify-content: center;
             align-items: center;
-            padding:1.25rem;
         }   
-        ul{
-            display: flex;
-            gap: 5rem;
-        }
         a{
             color: $text-color;
             font-size: 1rem;
         }
+        li{
+            padding: 1.125rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            &:hover{
+                background-color: rgba(245, 245, 245, 0.4);
+                cursor: pointer;
+            }
+        }
+        
     }
 }
