@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+$black:black;
+$white:white;
 $nav-background:#001d3d;
 $text-color:#ffc300;
 $background:#003566;
@@ -14,36 +16,76 @@ ul,li,a{
     border-bottom: none;
 }
 
-.mini-section{
     
-    nav{
+
+.first-header{
+    .row{
         display: flex;
-        background-color: rgba(255, 0, 0, 0.319);
+        justify-content: space-between;
+        align-items: center;
+        padding: .75rem;
+        a{
+            color: $black;
+        }
     }
-    .right{
-        display: flex;
+    .name{
+        font-size: 1.5rem;
+        margin-left: 1rem;
     }
     .left{
         display: flex;
+        align-items: center;
+        gap:3rem;
+        .columns{
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            .temp{
+                font-size: 1.25rem;
+            }
+        }
+        .climat{
+            display: flex;
+            gap: .25rem;
+        }
+        .location{
+        }
+        .capital{
+            
+            font-weight: bold;
+        }
     }
+    .right{
+        display: flex;
+        gap: 5rem;
+        margin-right: 1rem;
+    }
+    nav{
+        background-color: $white;
+    }
+}
+.mini-section{
+    
+
+   
     .header{
         background: $background;
         height: 100vh;
     
-    nav{
-        background-color: $nav-background;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding:1.5rem;
+        nav{
+            background-color: $nav-background;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:1.25rem;
+        }   
         ul{
             display: flex;
             gap: 5rem;
         }
         a{
             color: $text-color;
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
-    }   
     }
 }
