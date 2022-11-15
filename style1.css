@@ -1,3 +1,4 @@
+/*css kundservice*/
 body{
     background-color: #001d3d;
 }
@@ -45,4 +46,17 @@ body{
     padding: 1rem;
     padding-left: 5rem;
     color: #ffc300;
+}
+
+/* CSS footer*/ 
+
+footer{
+border-top: solid 1px black;
+background-color: #001d3d;
+color: #ffc300;
+}
+
+footer p{
+    padding: 0.5rem;
+    padding-left: 5rem;
 }
