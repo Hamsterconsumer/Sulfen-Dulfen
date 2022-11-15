@@ -69,7 +69,6 @@ ul, li, a {
 
 .mini-section .header {
   background: #003566;
-  height: 100vh;
 }
 .mini-section .header .columns {
   display: flex;
