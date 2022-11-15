@@ -10,11 +10,17 @@ ul, li, a {
   border-bottom: none;
 }
 
+.name {
+  color: rgb(21, 90, 83) !important;
+  font-weight: bold;
+}
+
 .first-header .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
+  background-color: wheat;
 }
 .first-header .row a {
   color: black;
@@ -40,16 +46,22 @@ ul, li, a {
   display: flex;
   gap: 0.25rem;
 }
+.first-header .left .icon {
+  color: lightsalmon !important;
+}
 .first-header .left .capital {
   font-weight: bold;
 }
 .first-header .right {
   display: flex;
-  gap: 5rem;
-  margin-right: 1rem;
+  gap: 2rem;
+  margin-right: 1.5rem;
 }
 .first-header .right a {
+  padding: 0.5rem;
   background-color: #ffc300;
+  border-radius: 1rem;
+  z-index: 5;
 }
 .first-header nav {
   background-color: white;
@@ -80,4 +92,25 @@ ul, li, a {
 .mini-section .header li:hover {
   background-color: rgba(245, 245, 245, 0.4);
   cursor: pointer;
+}
+
+.circle::before {
+  position: absolute;
+  content: "";
+  top: 9.5px;
+  right: 8.25rem;
+  height: 34px;
+  width: 50px;
+  z-index: 1;
+  border-radius: 1rem;
+  background-color: #003566;
+  cursor: pointer;
+}
+
+.circle-two::before {
+  right: 16.125rem;
+}
+
+.creat-a {
+  cursor: not-allowed;
 }/*# sourceMappingURL=style.css.map */

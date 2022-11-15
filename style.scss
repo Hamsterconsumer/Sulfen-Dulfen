@@ -9,7 +9,7 @@ $white:white;
 $nav-background:#001d3d;
 $text-color:#ffc300;
 $background:#003566;
-
+$turkos: turquoise;
 ul,li,a{
     list-style:none;
     text-decoration: none;
@@ -17,13 +17,18 @@ ul,li,a{
 }
 
     
-
+.name{
+    color: rgb(21, 90, 83)!important;
+    font-weight: bold;
+    outline: ;
+}
 .first-header{
     .row{
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: .5rem;
+        background-color: wheat;
         a{
             color: $black;
         }
@@ -48,6 +53,9 @@ ul,li,a{
             display: flex;
             gap: .25rem;
         }
+        .icon{
+            color: lightsalmon!important;
+        }
         .location{
         }
         .capital{
@@ -57,19 +65,22 @@ ul,li,a{
     }
     .right{
         display: flex;
-        gap: 5rem;
-        margin-right: 1rem;
-
+        gap: 2rem;
+        margin-right: 1.5rem;
         a{
+            padding: .5rem;
             background-color: $text-color;
+            border-radius: 1rem;
+            z-index: 5;
+        
         }
+
     }
     nav{
         background-color: $white;
     }
 }
 .mini-section{
-    
     .header{
         background: $background;
         height: 100vh;
@@ -99,4 +110,23 @@ ul,li,a{
         }
         
     }
+}
+
+.circle::before{
+    position: absolute;
+    content: "";
+    top: 9.5px;
+    right: 8.25rem;
+    height: 34px;
+    width: 50px;
+    z-index:1;
+    border-radius: 1rem;
+    background-color: $background;
+    cursor: pointer;
+}
+.circle-two::before{
+    right: 16.125rem;
+}
+.creat-a{
+    cursor: not-allowed;
 }
