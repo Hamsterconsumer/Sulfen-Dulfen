@@ -98,7 +98,7 @@ ul, li, a {
   position: absolute;
   content: "";
   top: 9.5px;
-  right: 8.25rem;
+  right: 8.5rem;
   height: 34px;
   width: 50px;
   z-index: 1;
@@ -108,7 +108,7 @@ ul, li, a {
 }
 
 .circle-two::before {
-  right: 16.125rem;
+  right: 16.3rem;
 }
 
 .creat-a {
