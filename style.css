@@ -9,12 +9,10 @@ ul, li, a {
   text-decoration: none;
   border-bottom: none;
 }
-
 .name {
   color: rgb(21, 90, 83) !important;
   font-weight: bold;
 }
-
 .first-header .row {
   display: flex;
   justify-content: space-between;
