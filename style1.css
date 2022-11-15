@@ -1,7 +1,11 @@
+body{
+    background-color: #001d3d;
+}
+
 .faq-stor{
     display: flex;
     flex-wrap: wrap;
-    background-color: #001d3d;
+    background-color: #003566;
     justify-content: center;
 }
 .faq{
@@ -14,12 +18,12 @@
     border: solid 1px;
     text-align: center;
 }
+
 .faq-två{
     display: flex;
     flex-wrap: wrap;
-    background-color: #001d3d;
+    background-color: #003566;
     justify-content: center;
-
 }
 .faq-2{
     background-color: #ffc300;
@@ -31,4 +35,14 @@
     border: solid 1px;
     border-radius: 5px;
     text-align: center;
+}
+
+.information{
+    background-color: #001d3d;
+    border-top: solid 2px black;
+}
+.information p{
+    padding: 1rem;
+    padding-left: 5rem;
+    color: #ffc300;
 }
