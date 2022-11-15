@@ -1,0 +1,62 @@
+/*css kundservice*/
+body{
+    background-color: #001d3d;
+}
+
+.faq-stor{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #003566;
+    justify-content: center;
+}
+.faq{
+    background-color: #ffc300;
+    padding: 1rem;
+    margin: 1rem;
+    width: 21rem;
+    
+    border-radius: 5px;
+    border: solid 1px;
+    text-align: center;
+}
+
+.faq-två{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #003566;
+    justify-content: center;
+}
+.faq-2{
+    background-color: #ffc300;
+    padding: 1rem;
+    margin: 1rem;
+    width: 32.5rem;
+    justify-content: center;
+
+    border: solid 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.information{
+    background-color: #001d3d;
+    border-top: solid 2px black;
+}
+.information p{
+    padding: 1rem;
+    padding-left: 5rem;
+    color: #ffc300;
+}
+
+/* CSS footer*/ 
+
+footer{
+border-top: solid 1px black;
+background-color: #001d3d;
+color: #ffc300;
+}
+
+footer p{
+    padding: 0.5rem;
+    padding-left: 5rem;
+}
