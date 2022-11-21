@@ -1,2 +1,12 @@
 /*css för nyhet*/
 
+.artikelcontainer
+{
+    display: flex;
+}
+
+.artikelbild
+{
+    width:50rem;
+    height: 20rem;
+}
